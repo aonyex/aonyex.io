@@ -26,7 +26,7 @@ jobs:
         npm run convert-markdown -- --all
 
     - name: API docs
-      working-directory: ./api-docs-slate
+      working-directory: ./api-docs
       run: |
         gem install bundler
         bundle install
